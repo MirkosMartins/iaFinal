@@ -6,3 +6,12 @@ import joblib
 arvore = joblib.load('arvore.sav')
 
 st.title('Arvore de Decisao - Alunos')
+individiduo = []
+
+genero = st.selectbox('Digite o sexo do aluno:',('Masculino','Feminino'))
+if genero=='Masculino':
+  individuo.append(0)
+else:
+  individuo.append(1)
+st.write(individuo)
+
