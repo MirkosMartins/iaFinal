@@ -15,5 +15,7 @@ else:
   individuo.append(1)
 st.write(individuo)
 
-idade = st.number_input('Digite a idade:',min_value=1,max_value=150)
-st.write(idade)
+ethinicy = st.selectbox('Informe a etnia:',('Group A','Group B','Group C','Group D','Group E'))
+individuo.append(ethinicy)
+
+
